@@ -14,7 +14,10 @@ body a {
     color: #458466;
 }
 
-h2 a:visited,
+h2 a:visited {
+    color: #cf7316;
+}
+
 h2 a:link {
     color: #000000;
 }
@@ -38,7 +41,7 @@ h1 {
 
 main {
     padding-left: 25px;
-    width: 80%;
+    width: 100%;
 }
 
 h2 {
@@ -57,7 +60,7 @@ h4 {
     text-align: right;
 }
 
-section {
+article {
     min-width: 200px;
     max-width: 600px;
     padding: 10px;
@@ -92,12 +95,20 @@ footer {
     display: none;
 }
 
-@media (min-width: 600px) {
+h2 {
+    float: left;
+}
+
+@media (min-width: 380px) {
     #mobile {
         display: none;
     }
 
     #desktop {
         display: inline;
+    }
+
+    h2 {
+        float: none;
     }
 }
