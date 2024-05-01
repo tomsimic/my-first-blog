@@ -87,6 +87,35 @@ footer {
     padding: 1em;
 }
 
+.actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #458466;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #1848cf;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #1848cf;
+    float: right;
+    font-size: 15pt;
+    margin-right: 20px;
+}
+
 #mobile {
     display: block;
 }
